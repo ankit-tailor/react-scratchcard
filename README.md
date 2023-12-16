@@ -36,15 +36,12 @@ function App() {
   };
 
   return (
-    <ScratchCard
-      width={300}
-      height={150}
-      image="path_to_image.jpg"
-      finishPercent={50}
-      onComplete={handleComplete}
-      brushSize={20}
-    >
-      <div>Congratulations! You've found the hidden message!</div>
+    <ScratchCard finishPercent={30} brushSize={20} onComplete={handleComplete}>
+      <img
+        height={150}
+        width={300}
+        src="https://images.pexels.com/photos/14686115/pexels-photo-14686115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      />
     </ScratchCard>
   );
 }

@@ -5,11 +5,11 @@ import { ScratchCard } from '../src';
 
 const App = () => {
   return (
-    <ScratchCard>
+    <ScratchCard finishPercent={30}>
       <img
         height={150}
         width={300}
-        src="https://wallpapers.com/images/hd/cat-with-shades-cool-picture-lkenou4wsqrbib37.jpg"
+        src="https://images.pexels.com/photos/14686115/pexels-photo-14686115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
     </ScratchCard>
   );
