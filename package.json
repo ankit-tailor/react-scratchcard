@@ -1,8 +1,15 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "keywords": [
+    "react-scratchcard",
+    "scratch-off-effect",
+    "interactive-canvas",
+    "react-ui-component",
+    "scratch-reveal"
+  ],
   "files": [
     "dist",
     "src"
